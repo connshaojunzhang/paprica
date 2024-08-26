@@ -40,7 +40,7 @@ RUN git clone --recursive https://github.com/lczech/gappa.git && \
     make -C /gappa
 
 # Install epa-ng
-RUN git clone https://github.com/Pbdas/epa-ng.git && \ 
+RUN git clone https://github.com/pierrebarbera/epa-ng.git && \ 
     make -C /epa-ng
 
 # Modify PATH
